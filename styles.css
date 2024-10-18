@@ -1,3 +1,14 @@
 html {
     background-color: #4b9e37;
 }
+
+#nav-bar {
+    background-color:  black;
+    width: 50%;
+    height: 10%;
+}
+
+#nav-bar * {
+    text-decoration: underline;
+    color: #4b9e37;
+}
