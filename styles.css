@@ -12,3 +12,9 @@ html {
     text-decoration: underline;
     color: #4b9e37;
 }
+
+@media (max-width: 1200) {
+    html {
+        color: black;
+    }
+}
