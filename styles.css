@@ -50,9 +50,10 @@ p {
 
 #intro h6 {
     left: 30%;
-    top: 10%;
     position: relative;
     font-size: 15px;
+    margin-top: 0;
+    width: 150px;
 }
 #intro {
     position: absolute;
