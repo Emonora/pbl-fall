@@ -1,6 +1,7 @@
 const images = [
     'assets/globalgoal.svg',
-    'assets/posteer1.jpg'
+    'assets/posteer1.jpg',
+    'assets/posteer2.jpg',
 ];
 
 let currentIndex = 0;
