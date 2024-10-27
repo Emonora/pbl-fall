@@ -1,4 +1,4 @@
-import ImageCarousel from "./image-switch";
+import ImageCarousel from "./switcher";
 
 export default function Home() {
   return (
