@@ -25,7 +25,7 @@ export default function Home() {
       <ImageSwitcher images={images} />
 
       <Link href="/propo">
-        <button className="menu__button absolute bottom-10 left-50 p-4 text-white">
+        <button className="menu__button absolute bottom-40 left-50 p-4 text-white">
           <span>Amendment Proposal</span>
         </button>
       </Link>
