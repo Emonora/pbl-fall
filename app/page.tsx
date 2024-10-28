@@ -4,9 +4,9 @@ import ImageSwitcher from "./image-switcher";
 
 export default function Home() {
   const images = [
-    '/images/image1.jpg',
-    '/images/image2.jpg',
-    '/images/image3.jpg',
+    '/poster1.png',
+    '/poster2.png',
+    '/poster3.png'
   ];
   return (
     <>
