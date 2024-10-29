@@ -153,12 +153,12 @@ p {
 
 #btn1 {
     position: absolute;
-    bottom: 0;
+    bottom: 10%;
     left: 10%;
 }
 
 #btn2 {
     position: absolute;
-    bottom: 0;
+    bottom: 10%;
     left: 20%;
 }
