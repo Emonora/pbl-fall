@@ -92,7 +92,10 @@ p {
 
 .italic {
     font-style: italic;
-    color: rgba(169, 169, 169, 0.6)
+}
+
+.grey {
+    color: rgba(169, 169, 169, 0.6);
 }
 
 .btn {
@@ -153,12 +156,12 @@ p {
 
 #btn1 {
     position: absolute;
-    bottom: 10%;
+    bottom: 20%;
     left: 10%;
 }
 
 #btn2 {
     position: absolute;
-    bottom: 10%;
+    bottom: 20%;
     left: 20%;
 }
