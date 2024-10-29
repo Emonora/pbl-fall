@@ -28,6 +28,7 @@
 .arrow {
     position: absolute;
     top: 50%;
+    right: 31%;
     transform: translateY(-50%);
     font-size: 2rem;
     cursor: pointer;
@@ -36,9 +37,6 @@
     z-index: 1; 
 }
 
-.arrow.left {
-    right: 31%; 
-}
 
 .btn {
     --color: #00A97F;

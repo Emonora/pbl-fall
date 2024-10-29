@@ -11,16 +11,16 @@
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body>
-        <div id="intro" class="justify-center items-center h-screen">
+        <div id="intro" class="flex h-screen relative insert-x-52">
             <h1 class="text-4xl items-center">Promoting Mental Health</h1>
-            <h6 class="text-m items-center">Global Goal Target 3.4</h6>
-            <p class="italic grey text-sm w-80">Welcome to the promoting mental health pbl, created by august, con, and ryan. You can find any project information on the various sub pages of the site.</p>
+            <h6 class="text-m items-center absolute top-20">Global Goal Target 3.4</h6>
+            <p class="italic grey text-sm w-80 absolute top-40">Welcome to the promoting mental health pbl, created by august, con, and ryan. You can find any project information on the various sub pages of the site.</p>
         </div>
-        <div class="container px-10 w-0">
+        <div class="absolute right-0 top-0">
             <div class="semi-circle-mask">
                 <img id="maskedImage" src="assets/globalgoal.svg" alt="Image" />
             </div>
-            <div class="arrow left white" onclick="nextImage()">&lt;</div>
+            <div class="arrow white" onclick="nextImage()">&lt;</div>
         </div>
         <a href="propo/propo.html"><button class="btn" id="btn1">Proposal</button></a>
         <a href="project-info/project.html"><button class="btn" id="btn2">Project Information</button></a>
