@@ -10,25 +10,6 @@ p {
     font-weight: 700;
 }
 
-#nav-bar {
-    background-color:  rgba(0, 0, 0, 0.9);
-    width: 50%;
-    height: 10%;
-    position: absolute;
-    top: 88%;
-    background-size: contain;
-    display: inline-block;
-    border-radius: 120px;
-}
-
-#nav-bar * {
-    text-decoration: underline;
-    color: #4b9e37;
-    padding: 0;
-    margin: 0;
-    padding-left: 15px;
-}
-
 #other-info {
     position: absolute;
     left: 50%;
@@ -168,3 +149,15 @@ p {
     filter: brightness(.7);
     transform: scale(.98);
    }
+
+#btn1 {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+}
+
+#btn2 {
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+}
