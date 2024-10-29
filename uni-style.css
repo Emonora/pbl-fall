@@ -19,3 +19,26 @@ html {
 .white {
     color: white;
 }
+
+@keyframes revealing {
+    from {
+      color: gray;
+      margin-left: 100vw;
+      filter: blur(50px);
+      opacity: 0.5;
+    }
+    to {
+      margin: 0px;
+      filter: blur(0px);
+      opacity: 1;
+    }
+}
+
+/* 
+{
+  animation: revealing;
+  animation-timeline: view(block);
+  animation-range: cover 0% cover 50%;
+  margin: 0px;
+}
+*/  
