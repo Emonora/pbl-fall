@@ -13,3 +13,5 @@ function nextImage() {
     currentIndex = (currentIndex + 1) % images.length;
     document.getElementById('maskedImage').src = images[currentIndex];
 }
+
+setInterval(nextImage, 700)
