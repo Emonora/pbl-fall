@@ -34,7 +34,7 @@ html {
     }
 }
 
-#scroll > p {
+#scroll > * {
   animation: revealing;
   animation-timeline: view(block);
   animation-range: cover 0% cover 50%;
