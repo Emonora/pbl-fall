@@ -13,7 +13,7 @@ let currentIndex = 0;
 let i = 0;
 
 function nextImage() {
-    if (i === 100000) {
+    if (i >= 100000) {
         document.getElementById('maskedImage').src = image;
     }
     currentIndex = (currentIndex + 1) % images.length;
