@@ -15,10 +15,13 @@ let i = 0;
 function nextImage() {
     currentIndex = (currentIndex + 1) % images.length;
     document.getElementById('maskedImage').src = images[currentIndex];
-    i = Math.random()
-    if (i === 0.5345) {
-        document.getElementById("maskedImage").src = image;
+    if (i === 100) {
+        document.getElementById('maskedImage').src = image;
+        i = 0;
+        return;
     }
+
+    i++
 }
 
 setInterval(nextImage, 700)
