@@ -16,7 +16,7 @@ function nextImage() {
     currentIndex = (currentIndex + 1) % images.length;
     document.getElementById('maskedImage').src = images[currentIndex];
     i = Math.random()
-    if (i = 0.5345) {
+    if (i === 0.5345) {
         document.getElementById("maskedImage").src = image;
     }
 }
