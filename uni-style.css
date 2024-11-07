@@ -9,6 +9,7 @@ html {
 * {
     color: white;
     text-decoration: none;
+    overflow-x: hidden;
 }
 
 .grey {
