@@ -15,7 +15,7 @@ let i = 0;
 function nextImage() {
     currentIndex = (currentIndex + 1) % images.length;
     document.getElementById('maskedImage').src = images[currentIndex];
-    if (i === 100) {
+    if (i === 50) {
         document.getElementById('maskedImage').src = image;
         i = 0;
         return;
