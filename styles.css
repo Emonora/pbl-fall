@@ -16,6 +16,11 @@
     position: relative;
 }
 
+.btn:hover {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
 .semi-circle-mask img {
     position: absolute;
     top: 50%;
